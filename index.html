@@ -6,20 +6,23 @@
     <link href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script type="text/javascript" src="js/jogo.js"></script>
 </head>
- <body>
-    <h1>Arrocha Games</h1>    
-    <h2>Jogo da Memória</h2>
-    <div class="tabuleiro">
+ <body>    
+    <h1>Jogo da Memória</h1>
     
+    <button id="start" onclick="start()">Começar</button>
+    
+    <div id="tabuleiro">
+     <!-- <span id="minuto">00</span>:<span id="segundo">00</span> -->
+     <h1 id="counter">00:00:00</h1>
         <div class="container">
         <div class="row">
-          <div class="col-lg-3"> <img id="0" src="midia/carta.jpg" onclick="mudarImg(0)" >
+          <div class="col-lg-3"> <img id="0" src="midia/carta.jpg" onclick="mudarImg(0)">
           </div>
           <div class="col-lg-3"> <img  id="1" src="midia/carta.jpg" onclick="mudarImg(1)">
           </div>
-          <div class="col-lg-3"> <img  id="2" src="midia/carta.jpg" onclick="mudarImg(2)" >
+          <div class="col-lg-3"> <img  id="2" src="midia/carta.jpg" onclick="mudarImg(2)">
           </div>    
-          <div class="col-lg-3"> <img  id="3" src="midia/carta.jpg" onclick="mudarImg(3)" >
+          <div class="col-lg-3"> <img  id="3" src="midia/carta.jpg" onclick="mudarImg(3)">
           </div>
         </div>
       </div>
@@ -27,13 +30,13 @@
 
     <div class="container">
         <div class="row">
-          <div class="col-lg-3"><img id="4" src="midia/carta.jpg" onclick="mudarImg(4)" >
+          <div class="col-lg-3"><img id="4" src="midia/carta.jpg" onclick="mudarImg(4)">
           </div>
-          <div   class="col-lg-3"><img id="5" src="midia/carta.jpg" onclick="mudarImg(5)" >
+          <div   class="col-lg-3"><img id="5" src="midia/carta.jpg" onclick="mudarImg(5)">
           </div>
-          <div  class="col-lg-3"><img id="6" src="midia/carta.jpg" onclick="mudarImg(6)" >
+          <div  class="col-lg-3"><img id="6" src="midia/carta.jpg" onclick="mudarImg(6)">
           </div>    
-          <div   class="col-lg-3"><img  id="7" src="midia/carta.jpg" onclick="mudarImg(7)" >
+          <div   class="col-lg-3"><img  id="7" src="midia/carta.jpg" onclick="mudarImg(7)">
           </div>
         </div>
       </div>
@@ -41,7 +44,7 @@
 
     <div class="container">
         <div class="row">
-          <div  class="col-lg-3"><img id="8" src="midia/carta.jpg" onclick="mudarImg(8)" >
+          <div  class="col-lg-3"><img id="8" src="midia/carta.jpg" onclick="mudarImg(8)">
           </div>
           <div   class="col-lg-3"><img id="9" src="midia/carta.jpg" onclick="mudarImg(9)" >
           </div>
